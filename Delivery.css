@@ -1,0 +1,759 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+.header-1 h1{
+    font-family: 'Satisfy', cursive;
+}
+.header{
+    background-color:white;
+    width:100%;
+    display:flex;
+    
+    flex-direction:column;
+    justify-content: center;
+   
+}
+.header-1{
+    display:flex;
+  
+    justify-content:space-around;
+
+}
+.searchbox{
+    position:relative;
+    display:flex;
+    gap:30px;
+    width:59%;
+    margin-top:4px;
+    border-radius:15px;
+    padding:0px 15px;
+    border:1px solid gray;
+    box-shadow:0px 1px 3px black,1px 0px 1px black,-1px 0px 2px black,0px -1px 1px black;
+}
+.searchbox .box1{
+    width:33%;
+    padding-left:20px;
+    }
+.searchbox .box2{
+    width:67%;
+    padding-left:30px;
+    border-left:1px solid gray;
+}
+
+.searchbox  .box1 input{
+    padding:5px;
+    outline:none;
+    border:none;
+    font-size:18px;
+    width:100%;
+    background-color:transparent;
+
+}
+.searchbox  .box2 input{
+    padding:5px;
+    outline:none;
+    border:none;
+    font-size:18px;
+    width:100%;
+    background-color:transparent;
+
+
+}
+.searchbox .i1{
+    color:green;
+    top: 6px;
+    left: 18px;
+  position:absolute;
+}
+.searchbox .i2 {
+    color:blueviolet;
+    top: 6px;
+    left: 270px;
+    position: absolute;
+}
+.searchbox .i3 {
+    color:palevioletred;
+    top: 7px;
+    left: 301px;
+    position: absolute;
+}
+.header-1 .box3{
+    gap:8px;
+    margin-top:5px;
+}
+.header-1 button{
+    color:red;
+    font-weight:bold;
+    padding:6px 10px;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+    background-color:transparent;
+
+
+}
+.header-1 button:hover{
+     background-color:red;
+     color:white;
+     border-radius:15px;
+}
+.header-2{
+    margin-top:10px;
+    display:flex;
+   
+    padding-left:54px;
+    gap:5px;
+    font-size:18px;
+   
+}
+.header-2 a{
+    text-decoration:transparent;
+    color:black;
+    border-bottom:transparent;
+    
+}
+.header-1 .ch1, .ch2{
+    display:none;
+}
+.header-2 a:hover{
+    color:blue;
+    border-bottom:1px solid green;
+}
+.header-1 .usericon1 , .usericon2{
+    display:none;
+}
+.section2{
+    margin-top:20px;
+    display:flex;
+    gap:5px;
+    align-items:center;
+    justify-content: center;;
+}
+.box2{
+    
+    width:80%;
+}
+.section2 marquee img{
+      height:65px;
+      width:60px
+}
+.section2 .box1, .box3{
+   text-align:center;
+   font-family:calibri;
+}
+.section2 .box1 img{
+   height:65px;
+   width:90px;
+}
+.section2 .box3 img{
+    height:65px;
+    width:70px;
+}
+.section2 .box1{
+    color:yellowgreen;
+}
+.section2 .box3{
+    color:green;
+}
+.section3 {
+        margin-top:35px;
+        display:flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+.section3 .box-2{
+    width:65%;
+    height:95%;
+}
+.section3 .box-2 img{
+    height:100%;
+    
+    width:100%;
+}
+.section3 .box-1 .head{
+    line-height: 41px;
+    font-size:3rem;
+    font-weight:bold;
+    font-family:calibri;
+    width:70%;
+    margin:17px 0px;
+}
+.section3 .box-1 .head span{
+    color:red;
+}
+.section3 .box-2{
+    width:35%;
+}
+.section3 .box-1 button{
+    
+    background-color:wheat;
+    border-radius:26px;
+    padding:9px 17px;
+    font-size:18px;
+    cursor:pointer;
+    font-family: 'Satisfy', cursive;
+    border:0px transparent;
+}
+.section3 .box-1 button:hover{
+    background-color:skyblue;
+
+}
+.section3 .box-1 p{
+    font-size:19px;
+    font-family:Calibri;
+    width:80%;
+}
+.section3 .box-1 .button2{
+    background-color:coral;
+    padding:9px 15px;
+    border-radius:24px;
+    cursor:pointer;
+    font-family:calibri;
+    border:0px transaprent;
+    font-size:18px;
+    margin-top:17px;
+}
+.section3 .box-1 .button2:hover{
+    color:white;
+    background-color:green;
+}
+.section4{
+    margin-top:30px;
+     width:100%;
+     display:flex;
+     align-items: center;
+     justify-content:center;
+}
+.section4 .firstbox{
+    width:30%;
+}
+.section4 .firstbox p{
+    font-size:18px;
+}
+.section4 .firstbox h1{
+    font-size:3rem;
+    color:red;
+    font-family:calibri;
+}
+.section4 .firstbox button{
+    background-color:red;
+    color:white;
+    opacity:0.8;
+    border-radius:25px;
+    margin-top:20px;
+    padding:6px 10px;
+    font-size:17px;
+    border:0px solid transparent;
+}
+.section4 .firstbox button:hover{
+    opacity:1;
+}
+
+.section4 .secondbox{
+   margin-top:71px;
+   display:flex;
+   width:60%;
+   padding:5px 10px;
+   gap:20px;
+}
+.section4 .box{
+    font-family:calibri;
+    font-size:18px;
+    margin-bottom:9px;
+    width:30%;
+    border-radius:15px;
+    padding:10px;
+    background: rgb(255, 255, 255);
+    border: 0.05rem solid rgb(232, 232, 232);
+    box-shadow:-1px 0px 4px rgba(28, 28, 28, 0.09), 1px 0px 4px rgba(28, 28, 28, 0.09),  0px 1px 4px rgba(28, 28, 28, 0.09), 0px -1px 4px rgba(28, 28, 28, 0.09);
+}
+.section4 .box p{
+    cursor:pointer;
+    margin-top:20px;
+}
+.section4 .box:hover p {
+    color:blue;
+    transition:all 2s;
+   
+}
+.section4 .sub1-box{
+    overflow: hidden;
+    height:200px;
+    width:100%;
+}
+.section4 img:hover{
+    transform:scale(1.5);
+    transition: all 3s;
+}
+.section4 .secondbox .box img{
+     height:200px;
+     width:100%;
+     margin-bottom:14px;
+
+}
+
+.footer{ 
+    padding:50px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    display:wrap;
+    gap:55px;
+    background-color:whitesmoke;
+    margin-top:30px;
+}
+.footer .box h1 {
+    height: 43px;
+    font-size: 25px;
+    color: red;
+    text-shadow: 0px 1px 0px black, 0px -1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+}
+.footer .box p{
+    cursor:pointer;
+    font-size:18px;
+    color:darkgray;
+    height:28px;
+    text-shadow:0px 0.5px 0px black,0px -0.5px 0px black,-0.5px 0px 0px black,0px -0.5px 0px black;
+
+}
+.footer .box p:hover{
+    color:blue;
+}
+.footer .box h4{
+    height:28px;
+    font-size:17px;
+    color:cornflowerblue;
+  text-shadow:0px 1px 0px black,0px -1px 0px black,-1px 0px 0px black,0px -1px 0px black;
+}
+.footer .box-end .b1 select, .b2 select{
+    padding:3px 5px 3px 23.5px ;
+    border:none;
+    cursor:pointer;
+    background-color:transparent;
+    outline:none;
+}
+.footer .subfooter{
+    padding:4px;
+    border:1px solid white;
+    position:relative;
+    display:flex;
+    gap:8px;
+    margin-bottom:22px;
+    border-radius:15px;
+    box-shadow:0px 1px 1px black,0px -1px 1px black,-1px 0px 1px black,0px -1px 1px black;
+}
+.footer .box-end .b1 i{
+    position:absolute;
+   left:6px;
+   top:6px;
+    color:green;
+}
+.footer .box-end .b2 i{
+    position:absolute;
+    left:116px;
+    top:6px; 
+     color:blue;
+}
+.footer .subfooter .b2{
+    padding-left:12px;
+    border-left:1px solid gray;
+}
+.footer .subfooter + h4{
+    color:green;
+    margin:12px 0px;
+    
+}
+.footer .ibox{
+    display:flex;
+    gap:16px;
+    font-size:19px;
+    cursor:pointer;
+    margin:17px 0px;
+}
+.footer .ibox i {
+    animation-name:ibox;
+    animation-duration:2s;
+    animation-iteration-count:3;
+    animation-direction:alternate;
+
+}
+@keyframes ibox{
+    0%{
+        transform:scale(1);
+    }
+    50%{
+         transform:scale(1.2);
+    }
+    100%{
+        transform:scale(1.5);
+    }
+}
+.footer .ibox i:first-child{
+    color:palevioletred;
+}
+.footer .ibox i:nth-child(2){
+    color:darkblue;
+}
+.footer .ibox i:nth-child(3){
+    color:cornflowerblue;
+}
+.footer .ibox i:nth-child(4){
+    color:green;
+}
+.footer .ibox i:hover{
+    transform:scale(1.3);
+    
+}
+.footer .img1{
+    margin-top:10px;
+    height:42px;
+    width:130px;
+    display:block;
+}
+.footer .img2{
+    height:70px;
+    width:130px;
+}
+
+
+@media screen and (max-width:800px){
+   
+    .header-2 .span1{
+        display:none;
+    }
+    .header-1 h1{
+        position:fixed;
+        left:6px;
+        top:2px;
+    }
+    .header-sub2 {
+        display:none;
+
+    }
+    .header-1{
+        padding-top:50px;   
+        align-items:Center;
+        flex-direction:column;
+    }
+    .header-1 .searchbox{
+        
+        width:95%;
+        flex-direction:column;
+        gap:2px;
+        padding:5px 0px;
+        padding-bottom:2px;
+        padding-right:0px;
+       
+    }
+
+    .header-1 .box1{
+        padding-right:30px;
+        width:100%;
+      
+        border-bottom:1px solid gray;
+    }
+    .header-1 .box2{
+        padding-right:6px;
+        border-left:none;
+        width:100%;
+        padding-left:23px;
+        
+    }
+    .header-1 .searchbox .box2 input{
+         background-color:transparent;
+         font-size:17px;
+    }
+     .header-1 .searchbox .box2 input{
+         font-size:17px;
+    }
+    .searchbox .i1 {
+        top: 10px;
+        left: 8px;
+    }
+    .searchbox .i3 {
+        top: 44px;
+        left: 6px;
+    }
+    .searchbox .i2{
+        top:10px;
+        left:92%;
+    }
+    .header-1 .usericon1 {
+        position: fixed;
+        display: block;
+        top: 18px;
+        right: 50px;
+        color: red;
+        font-size:18px;
+        z-index:999;
+        
+    }
+    .header-1 .box3{
+        display:block;
+        display:flex;
+        flex-direction:column;
+        position: fixed;
+        top: 53px;
+        width:50%;
+        height:19vh;
+        z-index:999;
+        background-color: #000000b3;
+      left:-100%;
+      transition: all 0.5s;
+      padding-top: 10px;
+        }
+        .header-1 .box3 button:hover{
+              color:white;
+              border-radius:0px;
+
+        }
+    
+ input:checked ~ .box3{
+        left:0;
+    } 
+    .usericon2 {
+        position: fixed;
+         z-index:999;
+        display: block;
+        top: 17px;
+        right: 12px;
+        color: black;
+        font-size: 22px;
+    }
+    .header-sub2 {
+        display: block;
+        position: fixed;
+        display: flex;
+        top: 43px;
+        padding-top: 73px;
+        gap: 25px;
+        font-size: 22px;
+        height: 89vh;
+        width: 100%;
+        color: black;
+        flex-direction: column;
+        background-color: #e26ad7a8;
+        left:-100%;
+        transition:all 0.5s;
+        padding-left:8px;
+        z-index:999;
+    }
+    .header-2 .spans{
+        display:none;
+    }
+    input:checked ~ .header-sub2{
+        left:0;
+    } 
+    .header-2 a:hover{
+          color:white;
+          border:none;   
+}
+.header-1 h1{
+     z-index:999;
+    width:100%;
+    background-color:white;
+    top:0;
+    left:0;
+    padding-left:10px;
+}
+}
+
+@media screen and (min-width:800px) and (max-width:1400px)
+{
+    .searchbox {
+        gap: 5%;
+        width: 65%;
+        margin-top: 4px;
+        border-radius: 15px;
+        padding: 0px 16px;
+        border: 1px solid gray;
+        padding-right: 0%;
+    }
+    .searchbox .box1 {
+        width: 34%;
+        padding-left: 7px;
+       
+    }
+    .searchbox .box2 {
+        width: 78%;
+        padding-left: 3%;
+        padding-right:0%;
+    }
+    .searchbox .i3 {
+        top: 11px;
+        left: 37%;
+    }
+    .searchbox .i1 {
+        top: 11px;
+        left: 11px;
+    }
+    .searchbox .i2 {   
+        top: 10px;
+        left: 33%;
+    }
+    .searchbox .box1 input {
+        padding: 9px;
+        padding-right: 0px;
+        padding-left: 4px;
+    }
+    .searchbox .box2 input {
+        padding: 9px;
+        background-color: transparent;
+    }
+    .header-2{
+        padding-left:2%;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1400px)
+{
+    .header{
+        position:fixed;
+        z-index:999;
+        top:0;
+        background-color:white;
+
+    }
+    .projectcontainer{
+        padding-top:59px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:800px)
+{
+    .header .box3 {
+    top: 53px;
+    width: 24%;
+    height: 28vh;
+    background-color: #050206c9;
+    padding-top: 28px;
+}
+}
+@media screen and (min-width:1200px) and (max-width:1400px){
+    .searchbox .i3 {
+        top: 11px;
+        left: 36%;
+    }
+    .searchbox .i2{
+        left:31.5%;
+    }
+    .searchbox{
+        gap:4%;
+    } 
+    }
+@media screen and (max-width:800px){
+    .section3 {
+    padding-left:10px;    
+    flex-direction:column;
+    gap:19px;
+   
+}
+
+
+.section3 .box-1 .head{
+    line-height: 35px;
+    font-size:2rem;
+    width:82%;
+   
+}
+
+.section3 .box-2{
+    width:95%;
+}
+}
+@media screen and (min-width:800px) and (max-width:1200px){
+    .section3 {
+        margin-top:4px;
+        padding-left: 20px;
+    }
+    .section3 .box-1 .head {
+        width: 89%;
+    }
+
+    .section3 .box-2 {
+    width: 63%;
+    height:60vh;
+}
+
+
+
+}
+@media screen and (max-width:800px){
+    .section4 {
+        margin-top:10px;
+        flex-direction: column;
+}
+.section4 .box {
+    
+    width: 97%;
+
+}
+.section4 .firstbox {
+    width: 88%;
+}
+.section4 .secondbox {
+    width: 92%;
+    flex-direction: column;
+   
+}
+}
+@media screen and (min-width:800px) and (max-width:1200px){
+
+.section4 .secondbox {
+    
+    width: 68%;
+   
+}
+}
+@media screen and (min-width:320px) and (max-width:800px){
+    .footer {
+        flex-direction: column;
+        display: flex;
+         align-items: start; 
+         justify-content: start;
+        gap: 0px;
+        text-align: left;
+    }
+    .footer .box-end .b1 select, .b2 select {
+        padding: 3px 5px 3px 17px;
+       
+    }
+    .footer .subfooter {
+        padding: 2px;
+        gap: 3px;
+    }
+    .footer .box-end .b2 i {
+        left: 106px;
+        top:6px;
+    }
+    .footer .box-end .b1 i {
+        top:7px;
+        left:7px;
+    }
+    .footer .box-end .b1  {
+        padding-left:8px;
+    
+    }
+    .footer {
+        padding-left: 30px;
+        background-color: whitesmoke;
+    }
+
+}
+@media screen and (min-width:800px) and (max-width:1200px)
+{
+.footer {
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: wrap;
+    gap: 35px;
+}
+}

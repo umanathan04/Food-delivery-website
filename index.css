@@ -1,0 +1,1158 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+.header-1 h1{
+    font-family: 'Satisfy', cursive;
+}
+.header{
+    background-color:white;
+    width:100%;
+    display:flex;
+    
+    flex-direction:column;
+    justify-content: center;
+   
+}
+.header-1{
+    display:flex;
+  
+    justify-content:space-around;
+
+}
+.searchbox{
+    position:relative;
+    display:flex;
+    gap:30px;
+    width:59%;
+    margin-top:4px;
+    border-radius:15px;
+    padding:0px 15px;
+    border:1px solid gray;
+    box-shadow:0px 1px 3px black,1px 0px 1px black,-1px 0px 2px black,0px -1px 1px black;
+}
+.searchbox .box1{
+    width:33%;
+    padding-left:20px;
+    }
+.searchbox .box2{
+    width:67%;
+    padding-left:30px;
+    border-left:1px solid gray;
+}
+
+.searchbox  .box1 input{
+    padding:5px;
+    outline:none;
+    border:none;
+    font-size:18px;
+    width:100%;
+    background-color:transparent;
+
+}
+.searchbox  .box2 input{
+    padding:5px;
+    outline:none;
+    border:none;
+    font-size:18px;
+    width:100%;
+    background-color:transparent;
+
+
+}
+.searchbox .i1{
+    color:green;
+    top: 6px;
+    left: 18px;
+  position:absolute;
+}
+.searchbox .i2 {
+    color:blueviolet;
+    top: 6px;
+    left: 270px;
+    position: absolute;
+}
+.searchbox .i3 {
+    color:palevioletred;
+    top: 7px;
+    left: 301px;
+    position: absolute;
+}
+.header-1 .box3{
+    gap:8px;
+    margin-top:5px;
+}
+.header-1 button{
+    color:red;
+    font-weight:bold;
+    padding:6px 10px;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+    background-color:transparent;
+
+
+}
+.header-1 button:hover{
+     background-color:red;
+     color:white;
+     border-radius:15px;
+}
+.header-2{
+    margin-top:10px;
+    display:flex;
+   
+    padding-left:54px;
+    gap:5px;
+    font-size:18px;
+   
+}
+.header-2 a{
+    text-decoration:transparent;
+    color:black;
+    border-bottom:transparent;
+    
+}
+.header-1 .ch1, .ch2{
+    display:none;
+}
+.header-2 a:hover{
+    color:blue;
+    border-bottom:1px solid green;
+}
+.header-1 .usericon1 , .usericon2{
+    display:none;
+}
+
+
+.section2 .subbox{
+    width:100%;
+    display:flex;
+    gap:15px;
+   overflow-x:auto;
+    /* scrollbar-width: none;   */
+    padding:20px 0px;
+    transition:all 0.5s;
+    background-color:white;
+    border-radius:25px;
+   
+}
+
+/* .subbox::-webkit-scrollbar{
+    display:none;
+} */
+
+
+.section2{
+    background-color:lightcyan;
+    display:flex;
+    flex-direction:column;
+    padding:20px 50px;
+    width:100%;
+    
+}
+.section2 h1{
+    font-size:39px;
+    margin:5px 0px 16px 0px; 
+}
+.section2 .subbox img{
+   
+    height:140px;
+    width: 140px;
+    overflow:hidden;
+    border-radius:50%;
+   border:1px solid green;
+   padding:6px;
+    margin-bottom:10px;
+    cursor:pointer; 
+
+}
+.section2 .subbox img:hover{
+    transform:scale(0.9);
+    padding:0px;
+    box-shadow:-2px 0px 5px black,2px 0px 5px black,0px 2px 5px black,0px -2px 5px black;
+    
+    
+}
+.section2 .subbox .imgtext{
+    text-align:Center;
+   
+    font-size:19px;
+}
+.brand{
+    padding:20px 0px;
+}
+.sectionthree h1{
+    font-size:39px;
+    margin:18px 0px 10px 0px; 
+}
+.section3 {
+    
+    display:grid;
+    grid-template-columns:auto auto auto; 
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    
+}
+.section3 .container1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    border-radius:15px;
+    padding:10px 5px;
+    opacity:0.80;
+    overflow:hidden;
+    
+    background: rgb(255, 255, 255);
+    border: 0.05rem solid rgb(232, 232, 232);
+    box-shadow:-1px 0px 4px rgba(28, 28, 28, 0.09), 1px 0px 4px rgba(28, 28, 28, 0.09),  0px 1px 4px rgba(28, 28, 28, 0.09), 0px -1px 4px rgba(28, 28, 28, 0.09);
+}
+.section3 .container1:hover {
+    background-color:white;
+    box-shadow:0px -1px 3px black,0px 1px 3px black,1px 0px 3px black,-1px 0px 3px black;
+}
+.section3 .container1 img{
+cursor:pointer;
+  height:100%;
+  width:100%;
+ 
+  margin-bottom:22px;
+ 
+  transition:all 0.5s;
+  opacity:1;
+  border-radius:15px;
+  
+  
+}
+.section3 .container1 .imgdiv{
+    height:208px;
+    width:330px;
+    overflow:hidden;
+    margin-bottom:22px;
+    border-radius:15px;
+    
+}
+.section3 .container1 img:hover{
+  transform:scale(1.5);
+   opacity:2;
+}
+.section3 .container1 h3{
+    top:180px;
+    display:none;
+    position:absolute;
+    background-color:cornflowerblue;
+}
+.section3 .container1 .sub1{
+    position:relative;
+    width:91%;
+    display:flex;
+    justify-content:space-between;
+}
+.section3 .container1 .sub1 .subtext button{
+    background-color:skyblue;
+    border-radius:14px;
+    padding:2px 3px 2px 3px;
+    font-size:14px;
+    position:absolute;
+    right:0px;
+    border:none;
+}
+.subtext button i{
+    color:yellow;
+    font-size:11px;
+    
+}
+
+.section3 .container1  .subtext p{
+    font-size:21px;
+    height:26px;
+}
+.section3 .subtext .min{
+    margin-left:44px;
+} 
+.section4{
+    scroll-behavior: smooth;
+    font-family:calibri;
+    min-height:450px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:Center;
+    padding:30px;
+    margin-top:50px;
+    background-color:rgba(255, 0, 0, 0.204)
+}
+
+.section4 .login{
+    position:absolute;
+    border-radius:10px;
+    padding:16px;
+    width:30%;
+    background-color:white;
+    box-shadow:1px 0px 3px black,-1px 0px 3px black,0px -1px 3px black, 0px 1px 3px black;
+}
+
+.section4 .login h1{
+    color:gray;
+    font-family:calibri;
+}
+.section4 .login .loginsub input{
+    border:none;
+    cursor:pointer;
+    padding-left:4px;
+    outline:none;
+    width:70%;
+    padding-top:3px;
+    border-left:1px solid gray;
+}
+.section4 .loginsub{
+    box-shadow:0px 1px 3px black,1px 0px 3px black,-1px 0px 3px black,0px -1px 3px black;
+    
+    padding:6px 0px 6px 6px;;
+    font-size:21px;
+    border-radius:5px;
+    box-shadow:1px 0px 1px black,0px 1px 1px black,-1px 0px 1px black,0px -1px 1px black; 
+}
+::placeholder{
+    font-size:18px;
+}
+.section4 button ,.signup button{
+    box-shadow:0px 1px 3px black,1px 0px 3px black,-1px 0px 3px black,0px -1px 3px black;
+    border:transparent;
+    cursor:pointer;
+    background-color:crimson;
+    color:white;
+    border-radius:5px;
+    margin:10px 0px;
+    width:100%;
+    padding:6px;
+    font-size:18px;
+}
+.subsection4{
+    
+    width:100%;
+    min-height:460px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.section4 .login .i1 ,.signup .i1{
+    display:flex;
+    width:100%;
+    gap:3px;
+    font-size:22px;
+    
+}
+.section4 .login .i1 .in1, .signup .i1 .in1{
+      width:45%;
+      margin-top:14px;
+}
+.section4 .button1, .signup .button1{
+    font-size:18px;
+    background-color:transparent;
+    color:black;
+    border-radius:5px;
+    margin:10px 0px;
+    width:100%;
+    padding:6px;
+    cursor:pointer;
+    border:transparent;
+    box-shadow:0px 1px 3px black,1px 0px 3px black,-1px 0px 3px black,0px -1px 3px black;
+    
+}
+.section4 .button1:hover{
+    background-color:blue;
+    color:white;
+    box-shadow:0px 1px 2px black,1px 0px 2px black,-1px 0px 2px black,0px -1px 2px black;
+}
+.section4 .button1 + .hr{
+    margin:9px 0px; 
+}
+.section4 .account{
+    display:none;
+}
+.section4 .signup .input{
+    box-shadow:0px 1px 3px black,1px 0px 3px black,-1px 0px 3px black,0px -1px 3px black;
+    border:transparent;
+    cursor:pointer;
+   
+    color:gray;
+    border-radius:5px;
+    margin:10px 0px;
+    width:100%;
+    padding:6px;
+    font-size:18px;
+    display:block;
+}
+.section4 .signup p{
+   display:inline;
+}
+.section4 .lastbox {
+    display:flex;
+    gap:5px;
+}
+.section4 .lastbox span{
+    color:darkblue;
+} 
+.section4 .lastbox .agreecheck{
+    margin-bottom:18px;
+}
+.section4 .signup h1{
+    color:brown;
+}
+.signup button{
+    background-color:skyblue;
+    color:black;
+}
+.signup button:hover{
+    background-color:blue;
+    color:white;
+}
+.section4 label .ac1{
+    color:blue;
+    cursor:pointer;
+}
+.signup , .login1 {
+ 
+    position: absolute;
+    gap: 5px;
+     top:0;
+    left:0%;
+    font-size:18px;
+    border-radius:10px;
+    padding:16px;
+   display:none;
+    background-color:white;
+    box-shadow:1px 0px 3px black,-1px 0px 3px black,0px -1px 3px black, 0px 1px 3px black;
+}
+
+
+
+input:checked ~ .signup {
+left:0;
+top:0;
+width: 100%;
+position: absolute;
+display:block;
+}
+.section4 .ch1{
+    display:none;
+}
+input:checked ~ .login1{
+    left:0;
+    padding-bottom:34px;
+    padding-top:35px;
+top:0;
+width: 100%;
+position: absolute;
+display:block;
+}
+.section4 .ac2{
+    color:green;
+    cursor:pointer;
+}
+
+.footer{
+    background-color:whitesmoke;
+    padding:50px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    display:wrap;
+    gap:55px;
+}
+.footer .box h1{
+    height:40px;
+    font-size:25px;
+color:red;
+    text-shadow:0px 1px 0px black,0px -1px 0px black,-1px 0px 0px black,0px -1px 0px black;
+    
+}
+.footer .box p{
+    cursor:pointer;
+    font-size:18px;
+    color:darkgray;
+    height:28px;
+    text-shadow:0px 0.5px 0px black,0px -0.5px 0px black,-0.5px 0px 0px black,0px -0.5px 0px black;
+
+}
+.footer .box p:hover{
+    color:blue;
+}
+.footer .box h4{
+    height:28px;
+    font-size:17px;
+    color:cornflowerblue;
+  text-shadow:0px 1px 0px black,0px -1px 0px black,-1px 0px 0px black,0px -1px 0px black;
+}
+.footer .box-end .b1 select, .b2 select{
+    padding:3px 5px 3px 23.5px ;
+    border:none;
+    cursor:pointer;
+    background-color:transparent;
+}
+.footer .subfooter{
+    padding:4px;
+    border:1px solid white;
+    position:relative;
+    display:flex;
+    gap:8px;
+    border-radius:15px;
+    box-shadow:0px 1px 1px black,0px -1px 1px black,-1px 0px 1px black,0px -1px 1px black;
+}
+.footer .box-end .b1 i{
+    position:absolute;
+   left:6px;
+   top:6px;
+    color:green;
+}
+.footer .box-end .b2 i{
+    position:absolute;
+    left:116px;
+    top:6px; 
+     color:blue;
+}
+.footer .subfooter .b2{
+    padding-left:12px;
+    border-left:1px solid gray;
+}
+.footer .subfooter + h4{
+    color:green;
+    margin:16px 0px 10px 0px;
+    
+}
+.footer .ibox{
+    display:flex;
+    gap:16px;
+    font-size:19px;
+    cursor:pointer;
+    margin:17px 0px;
+}
+.footer .ibox i {
+    animation-name:ibox;
+    animation-duration:2s;
+    animation-iteration-count:3;
+    animation-direction:alternate;
+
+}
+@keyframes ibox{
+    0%{
+        transform:scale(1);
+    }
+    50%{
+         transform:scale(1.2);
+    }
+    100%{
+        transform:scale(1.5);
+    }
+}
+.footer .ibox i:first-child{
+    color:palevioletred;
+}
+.footer .ibox i:nth-child(2){
+    color:darkblue;
+}
+.footer .ibox i:nth-child(3){
+    color:cornflowerblue;
+}
+.footer .ibox i:nth-child(4){
+    color:green;
+}
+.footer .ibox i:hover{
+    transform:scale(1.3);
+    
+}
+.footer .img1{
+    margin-top:10px;
+    height:42px;
+    width:130px;
+    display:block;
+}
+.footer .img2{
+    height:70px;
+    width:130px;
+}
+ 
+@media screen and (max-width:800px){
+   
+    .header-2 .span1{
+        display:none;
+    }
+    .header-1 h1{
+        position:fixed;
+        left:6px;
+        top:2px;
+    }
+    .header-sub2 {
+        display:none;
+
+    }
+    .header-1{
+        padding-top:50px;   
+        align-items:Center;
+        flex-direction:column;
+    }
+    .header-1 .searchbox{
+        
+        width:95%;
+        flex-direction:column;
+        gap:2px;
+        padding:5px 0px;
+        padding-bottom:2px;
+        padding-right:0px;
+       
+    }
+
+    .header-1 .box1{
+        padding-right:30px;
+        width:100%;
+      
+        border-bottom:1px solid gray;
+    }
+    .header-1 .box2{
+        padding-right:6px;
+        border-left:none;
+        width:100%;
+        padding-left:23px;
+        
+    }
+    .header-1 .searchbox .box2 input{
+         background-color:transparent;
+         font-size:17px;
+    }
+     .header-1 .searchbox .box2 input{
+         font-size:17px;
+    }
+    .searchbox .i1 {
+        top: 10px;
+        left: 8px;
+    }
+    .searchbox .i3 {
+        top: 44px;
+        left: 6px;
+    }
+    .searchbox .i2{
+        top:10px;
+        left:92%;
+    }
+    .header-1 .usericon1 {
+        position: fixed;
+        display: block;
+        top: 18px;
+        right: 50px;
+        color: red;
+        font-size:18px;
+        z-index:999;
+        
+    }
+    .header-1 .box3{
+        display:block;
+        display:flex;
+        flex-direction:column;
+        position: fixed;
+        top: 53px;
+        width:50%;
+        height:19vh;
+        background-color: #000000b3;
+      left:-100%;
+      transition: all 0.5s;
+      padding-top: 10px;
+      z-index: 999;
+        }
+        .header-1 .box3 button:hover{
+              color:white;
+              border-radius:0px;
+
+        }
+    
+ input:checked ~ .box3{
+        left:0;
+    } 
+    .usericon2 {
+        position: fixed;
+         z-index:999;
+        display: block;
+        top: 17px;
+        right: 12px;
+        color: black;
+        font-size: 22px;
+    }
+    .header-sub2 {
+        display: block;
+        position: fixed;
+        display: flex;
+        top: 43px;
+        padding-top: 73px;
+        gap: 25px;
+        font-size: 22px;
+        height: 89vh;
+        width: 100%;
+        color: black;
+        flex-direction: column;
+        background-color: #e26ad7a8;
+        left:-100%;
+        transition:all 0.5s;
+        padding-left:8px;
+        z-index: 999;
+    }
+    .header-2 .spans{
+        display:none;
+    }
+    input:checked ~ .header-sub2{
+        left:0;
+    } 
+    .header-2 a:hover{
+          color:white;
+          border:none;   
+}
+.header-1 h1{
+     z-index:999;
+    width:100%;
+    background-color:white;
+    top:0;
+    left:0;
+    padding-left:10px;
+}
+}
+
+@media screen and (min-width:800px) and (max-width:1400px)
+{
+    .searchbox {
+        gap: 5%;
+        width: 65%;
+        margin-top: 4px;
+        border-radius: 15px;
+        padding: 0px 16px;
+        border: 1px solid gray;
+        padding-right: 0%;
+    }
+    .searchbox .box1 {
+        width: 34%;
+        padding-left: 7px;
+       
+    }
+    .searchbox .box2 {
+        width: 78%;
+        padding-left: 3%;
+        padding-right:0%;
+    }
+    .searchbox .i3 {
+        top: 11px;
+        left: 37%;
+    }
+    .searchbox .i1 {
+        top: 11px;
+        left: 11px;
+    }
+    .searchbox .i2 {   
+        top: 10px;
+        left: 33%;
+    }
+    .searchbox .box1 input {
+        padding: 9px;
+        padding-right: 0px;
+        padding-left: 4px;
+    }
+    .searchbox .box2 input {
+        padding: 9px;
+        background-color: transparent;
+    }
+    .header-2{
+        padding-left:2%;
+    }
+}
+@media screen and (max-width:800px)
+{
+.section3{
+    grid-template-columns: auto;
+}
+.section3 .subtext .min {
+    margin-left: 34px;
+}
+
+.section3 .container1 .subtext p {
+    font-size: 15px;
+    height: 23px;
+}
+.section3 .container1 h3 {
+    top: 170px;
+}
+.section3 .container1 img {
+    height: 204px;
+    width: 255px;
+}
+.section2 h1 {
+    font-size: 28px;
+}
+.sectionthree h1 {
+    font-size: 28px;
+    margin: 22px 0px 13px 0px;
+}
+.section2 .subbox img {
+    height: 191px;
+    width: 191px;   
+}
+
+}
+@media screen and (min-width:500px) and (max-width:800px){
+    .section3{
+    grid-template-columns: auto auto;
+}
+.section2 .subbox img {
+    height: 141px;
+    width: 141px;   
+}
+}
+@media screen and (min-width:800px) and (max-width:1200px)
+{    
+     .section3{
+    grid-template-columns: auto auto  auto;
+}
+    .section3 .container1 h3 {
+    top: 175px;
+}
+.section3 .container1 img{
+    height: 100%;
+    width:100%;
+}
+.section3 .container1 .imgdiv {
+    height: 214px;
+    width: 215px;
+}
+.section2 h1 {
+    font-size: 32px;
+}
+.sectionthree h1 {
+    font-size: 32px;
+    margin: 22px 0px 14px 0px;
+}
+.section2 .subbox img {
+    height: 161px;
+    width: 161px;   
+}
+.section3 .container1 .subtext p {
+    font-size: 15px;
+    height: 24px;
+}
+.section3 .subtext .min {
+    margin-left: 34px;
+}
+
+}
+@media screen and (min-width:320px) and (max-width:500px)
+{
+.section2 .subbox img {
+    height: 161px;
+    width: 151px;
+}
+}
+@media screen and (max-width:500px)
+{
+.section3 {
+    grid-template-columns: auto;
+}
+}
+@media screen and (min-width:320px) and (max-width:800px){
+.section3 .container1 h3 {
+    top: 153px;
+}
+.section2 {
+    padding: 23px 21px;
+}
+.section3 .container1 img {
+    height: 172px;
+    width: 204px;
+}
+}
+@media screen and (max-width:425px)
+{
+    .section4 .login {
+        position: absolute;
+        width: 100%;
+    }
+    .section4 {
+        flex-direction:column;
+        padding: 0px; 
+     background-color:transparent;
+    }
+    .section4 .loginsub {
+        font-size: 15px;
+        padding-right:0px;
+    } 
+    ::placeholder{
+        font-size: 13px;
+    }
+    .section4 .login .loginsub input {
+        width: 80%;
+    }
+    .section4 button, .signup button {
+        padding: 7px;
+        font-size: 15px;
+    }
+    .section4 .button1, .signup .button1 {
+        font-size: 15px;
+    }
+    .section4 label .ac1 {
+        font-size: 15px;
+    }
+    .section4 .signup p {
+        font-size: 12px;
+    }
+    
+}
+@media screen and (min-width:425px) and (max-width:500px)
+{
+    .section4 .login {
+        position: absolute;
+        width: 100%;
+    }
+    .section4 {
+        flex-direction:column;
+        padding: 0px; 
+     background-color:transparent;
+    }
+    .section4 .loginsub {
+        font-size: 17px;
+        padding-right:0px;
+    } 
+    ::placeholder{
+        font-size: 16px;
+    }
+    .section4 .login .loginsub input {
+        width: 80%;
+    }
+    .section4 button, .signup button {
+        padding: 7px;
+        font-size: 17px;
+    }
+    .section4 .button1, .signup .button1 {
+        font-size: 16px;
+    }
+    .section4 label .ac1 {
+        font-size: 16px;
+    }
+    .section4 .signup p {
+        font-size: 13px;
+    }
+    
+}
+@media screen and (min-width:500px) and (max-width:800px)
+{
+    .section4 .login {
+        position: absolute;
+        width:65%;
+    }
+    .section4 {
+    
+        padding: 30px; 
+     background-color:transparent;
+    }
+    .section4 .loginsub {
+        font-size: 18px;
+        padding-right:0px;
+    } 
+    ::placeholder{
+        font-size: 18px;
+    }
+    .section4 .login .loginsub input {
+        width: 80%;
+    }
+    .section4 button, .signup button {
+        padding: 7px;
+        font-size: 18px;
+    }
+    .section4 .button1, .signup .button1 {
+        font-size: 18px;
+    }
+    .section4 label .ac1 {
+        font-size: 18px;
+    }
+    .section4 .signup p {
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width:500px) and (max-width:600px){
+    .section4 .login {
+        position: absolute;
+        width: 70%;
+    }
+    }
+    @media screen and (min-width:600px) and (max-width:700px){
+        .section4 .login {
+            position: absolute;
+            width: 60%;
+        }
+    }
+    @media screen and (min-width:700px) and (max-width:800px){
+        .section4 .login {
+            position: absolute;
+            width: 55%;
+        }
+    }
+    @media screen and (min-width:800px) and (max-width:1024px)
+{
+    .section4 .login {
+        position: absolute;
+        width:48%;
+    }
+    .section3 {
+        grid-template-columns: auto auto auto;
+    }
+    .section4 {
+    
+        padding: 30px; 
+     background-color:transparent;
+    }
+    .section4 .loginsub {
+        font-size: 18px;
+        padding-right:0px;
+    } 
+    ::placeholder{
+        font-size: 18px;
+    }
+    .section4 .login .loginsub input {
+        width: 80%;
+    }
+    .section4 button, .signup button {
+        padding: 7px;
+        font-size: 18px;
+    }
+    .section4 .button1, .signup .button1 {
+        font-size: 18px;
+    }
+    .section4 label .ac1 {
+        font-size: 18px;
+    }
+    .section4 .signup p {
+        font-size: 15px;
+    }
+}
+    @media screen and (min-width:800px) and (max-width:1024px)
+    {
+        .section4 .login {
+            position: absolute;
+            width:48%;
+        }
+}
+
+@media screen and (min-width:800px) and (max-width:1400px)
+{
+    .header{
+        position:fixed;
+        z-index:999;
+        top:0;
+        background-color:white;
+
+    }
+    .projectcontainer{
+        padding-top:59px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:800px)
+{
+    .header .box3 {
+    top: 53px;
+    width: 24%;
+    height: 28vh;
+    background-color: #050206c9;
+    padding-top: 28px;
+}
+}
+@media screen and (min-width:1200px) and (max-width:1400px){
+    .searchbox .i3 {
+        top: 11px;
+        left: 36%;
+    }
+    .searchbox .i2{
+        left:31.5%;
+    }
+    .searchbox{
+        gap:4%;
+    } 
+
+    }
+@media screen and (max-width:800px){
+    .header-1 h1 {
+        z-index: 999;
+
+        top: 0;
+        left:0;
+    }
+    .header-sub2 {
+        
+        height: 92vh;
+
+    }
+    .header-2{
+        z-index:999;
+    }
+}
+@media screen and (min-width:320px) and (max-width:800px){
+    .footer {
+        flex-direction: column;
+        display: flex;
+         align-items: start; 
+         justify-content: start;
+        gap: 0px;
+        padding-left:30px;
+        text-align: left;
+    }
+    .footer .box-end .b1 select, .b2 select {
+        padding: 3px 5px 3px 17px;
+    }
+    .footer .subfooter {
+        padding: 2px;
+        gap: 3px;
+    }
+    .footer .box-end .b2 i {
+        left: 106px;
+        top:6px;
+    }
+    .footer .box-end .b1 i {
+        top:7px;
+        left:7px;
+    }
+    .footer .box-end .b1  {
+        padding-left:8px;
+    
+    }
+    
+
+}
+@media screen and (min-width:800px) and (max-width:1200px)
+{
+.footer {
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: wrap;
+    gap: 35px;
+}
+}
+@media screen and (max-width:800px){
+    .section2 {
+        padding: 20px 7px;
+    }
+    .section3 .container1 .imgdiv {
+        height: 204px;
+        width: 224px;
+        
+    }
+    .section3 .container1 img {
+        height: 180px;
+        width: 221px;
+    }
+}
+
