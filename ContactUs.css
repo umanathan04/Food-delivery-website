@@ -444,13 +444,13 @@
     .header-1 .box3{
         display:block;
         display:flex;
-        z-index:999;
+        z-index:9991;
         flex-direction:column;
         position: fixed;
-        top: 53px;
+        top: 41px;
         width:50%;
         height:19vh;
-        background-color: #000000b3;
+        background: repeating-linear-gradient(95deg, #ffffffe3,#14a30bba);
       left:-100%;
       transition: all 0.5s;
       padding-top: 10px;
