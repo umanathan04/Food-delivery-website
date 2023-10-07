@@ -697,7 +697,7 @@ color:red;
         width: 100%;
         color: black;
         flex-direction: column;
-        b background: repeating-linear-gradient(45deg, white,#000000e8);
+        background: repeating-linear-gradient(45deg, white,#000000e8);
         transition: all 1s;
         left:-100%;
        
