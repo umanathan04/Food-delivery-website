@@ -439,7 +439,7 @@ color:red;
     min-height: 124vh;
 }
 
-@media screen and (max-width:799px){
+@media screen and (max-width:800px){
    
     .section1-sub .textbox {
         font-size: 2rem;
