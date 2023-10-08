@@ -581,7 +581,7 @@ color:red;
     width:130px;
 }
  
-@media screen and (max-width:800px){
+@media screen and (max-width:799px){
    
     .header-2 .span1{
         display:none;
@@ -1059,7 +1059,7 @@ color:red;
         padding-top:59px;
     }
 }
-@media screen and (min-width:400px) and (max-width:800px)
+@media screen and (min-width:400px) and (max-width:799px)
 {
     .header .box3 {
     top: 53px;
@@ -1082,7 +1082,7 @@ color:red;
     } 
 
     }
-@media screen and (max-width:800px){
+@media screen and (max-width:799px){
     .header-1 h1 {
         z-index: 999;
 

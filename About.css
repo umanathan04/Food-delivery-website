@@ -439,7 +439,7 @@ color:red;
     min-height: 124vh;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:799px){
    
     .section1-sub .textbox {
         font-size: 2rem;
@@ -651,7 +651,7 @@ color:red;
         padding-top:59px;
     }
 }
-@media screen and (min-width:400px) and (max-width:800px)
+@media screen and (min-width:400px) and (max-width:799px)
 {
     .header .box3 {
     top: 53px;
@@ -882,4 +882,41 @@ color:red;
             gap: 35px;
         }
         }
+         @media screen and (min-width:799px) and (max-width:800px){
+            .header-1 h1 {
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+.searchbox .box1 input {
+    padding: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    background-color: transparent;
+}
+.header-1 .searchbox .box2 input {
+    font-size: 17px;
+}
+.header-1 .box1 {
+    padding-right: 30px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+.header-1 .box2 {
+    padding-right: 6px;
+    border-left: none;
+    width: 100%;
+    padding-left: 23px;
+}
+.header-1 .searchbox {
+    width: 95%;
+    flex-direction: column;
+    gap: 2px;
+    padding: 5px 0px;
+    padding-bottom: 2px;
+    padding-right: 0px;
+}
+        } 
         

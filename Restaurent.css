@@ -528,7 +528,7 @@
 }
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:799px){
    
     .header-2 .span1{
         display:none;
@@ -730,7 +730,7 @@
         padding-top:59px;
     }
 }
-@media screen and (min-width:400px) and (max-width:800px)
+@media screen and (min-width:400px) and (max-width:799px)
 {
     .header .box3 {
     top: 53px;
@@ -971,4 +971,4 @@
     gap: 35px;
 }
 }
-    
+
